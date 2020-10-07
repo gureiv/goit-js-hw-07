@@ -1,3 +1,23 @@
+.gallery {
+  margin: 0;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.galleryitem {
+  list-style: none;
+}
+
+.galleryitem:not(:last-child) {
+  margin-right: 30px;
+}
+
+.galleryimage {
+  display: block;
+  width: 100%;
+}
+
 #validation-input {
   border: 3px solid #bdbdbd;
 }
